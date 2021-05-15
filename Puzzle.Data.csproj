@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Projekte\Git\Puzzle\Puzzle.Data\Puzzle.Data.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Projekte\Git\Puzzle\Puzzle.Data\Puzzle.Data.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="linq2db.MySql" Version="2.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Puzzle.Core\Puzzle.Core.csproj" />
+  </ItemGroup>
+
+</Project>

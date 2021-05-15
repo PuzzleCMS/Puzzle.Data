@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Puzzle.Data</name>
+    </assembly>
+    <members>
+        <member name="T:Puzzle.Data.Models.Blog">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IBlog"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Blog.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Blog.Title">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Blog.Posts">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IBlog.Posts"/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Layout">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.ILayout"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Layout.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Layout.HTML">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Layout.CSS">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Layout.JS">
+            <inheritdoc/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Login">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.ILogin"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Login.UserID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Login.PasswordHash">
+            <inheritdoc/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Page">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IPage"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.Name">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.HTML">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.CSS">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.JS">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.WebsiteID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.ParentPageID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.LayoutID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.ParentWebsite">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IPage.ParentWebsite"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.ParentPage">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IPage.ParentPage"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.Pages">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IPage.Pages"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.Layout">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IPage.Layout"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Page.CombinedHTML">
+            <inheritdoc/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Post">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IPost"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Post.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Post.HTML">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Post.BlogID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Post.ParentBlog">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IPost.ParentBlog"/>
+        </member>
+        <member name="T:Puzzle.Data.Models.User">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IUser"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.Email">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.DisplayName">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.UserGroupID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.ParentUserGroup">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IUser.ParentUserGroup"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.User.Login">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IUser.Login"/>
+        </member>
+        <member name="T:Puzzle.Data.Models.UserGroup">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IUserGroup"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.UserGroup.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.UserGroup.Name">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.UserGroup.Users">
+            <inheritdoc cref="P:Puzzle.Core.Interfaces.Data.IUserGroup.Users"/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Website">
+            <inheritdoc cref="T:Puzzle.Core.Interfaces.Data.IWebsite"/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Website.ID">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Website.Pages">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Website.RootPath">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Website.APIPath">
+            <inheritdoc/>
+        </member>
+        <member name="P:Puzzle.Data.Models.Website.HeadlessMode">
+            <inheritdoc/>
+        </member>
+        <member name="T:Puzzle.Data.Models.Widget">
+            <summary>
+            An independent Vue.js control, which
+            can be referenced and rendered in every entity containing HTML
+            (including other <see cref="T:Puzzle.Data.Models.Widget"/>s).
+            </summary>
+        </member>
+        <member name="P:Puzzle.Data.Models.Widget.ID">
+            <summary>
+            ID.
+            </summary>
+        </member>
+        <member name="P:Puzzle.Data.Models.Widget.HTML">
+            <summary>
+            HTML content of the <see cref="T:Puzzle.Data.Models.Widget"/>.
+            </summary>
+        </member>
+        <member name="P:Puzzle.Data.Models.Widget.CSS">
+            <summary>
+            CSS content of the <see cref="T:Puzzle.Data.Models.Widget"/>.
+            </summary>
+        </member>
+        <member name="P:Puzzle.Data.Models.Widget.JS">
+            <summary>
+            JavaScript content of the <see cref="T:Puzzle.Data.Models.Widget"/>.
+            </summary>
+        </member>
+    </members>
+</doc>
